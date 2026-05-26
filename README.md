@@ -34,10 +34,10 @@ lftp -u root,adcvideo 192.168.1.36
 cd /mnt/flash/etc/audioclip
 ```
 
-## Upload the file to the dir
+## Upload the file to the Audio Directory
 
 ```bash
-put bell.wav /mnt/flash/etc/audioclip/bell.wav
+put bell.wav bell.wav
 ```
 
 </details>
