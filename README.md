@@ -41,7 +41,7 @@ http://[your-cam-ip]/setup/system/maintain.html#tabs-2
 <details>
 <summary><strong>Option B: Command Line (FTP)</strong></summary>
 
-## Connect via FTP
+## Connect via LFTP
 
 ```bash
 lftp -u root,adcvideo 192.168.1.36
