@@ -29,11 +29,10 @@ Use your root password when prompted.
 cd /mnt/flash/etc/audioclip
 ```
 
-## Step 4: Upload and Set Permissions
+## Step 4: Upload
 
 ```bash
 put bell.wav bell.wav
-chmod 644 bell.wav
 ```
 
 ## Step 5: Test
