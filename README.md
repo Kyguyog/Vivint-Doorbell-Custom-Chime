@@ -1,8 +1,7 @@
-# Replacing the Chime on Vivotek DB8331W (Vivint Doorbell)
+# Replacing the Chime Sound on Vivotek DB8331W (Vivint Doorbell)
 
 ## Requirements
 
-- lftp installed on your computer
 - ffmpeg & lftp installed on your computer
 - Your doorbell's IP address and root credentials (should be root:adcvideo)
 - Your replacement audio file (theoretically any format ffmpeg can read)
