@@ -21,8 +21,6 @@ ffmpeg -i yourcustom.mp3 -ar 8000 -ac 1 -acodec pcm_s16le -bitexact -fflags +bit
 lftp -u root,adcvideo 192.168.1.36
 ```
 
-Use your root password when prompted.
-
 ## Step 3: Navigate to the Audio Directory
 
 ```bash
