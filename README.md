@@ -33,6 +33,7 @@ http://[your-cam-ip]/cgi-bin/admin/setparam.cgi?network_http_webaccess=1
 ```
 http://[your-cam-ip]/setup/system/maintain.html#tabs-2
 ```
+Note: you may have to click "[Advanced Mode]" to see it
 
 **** Click **Choose File**, select your converted `bell.wav`, then click **Upload**.
 
