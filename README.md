@@ -3,22 +3,22 @@
 ## Requirements
 
 - lftp installed on your computer
-- ffmpeg installed on your computer
-- Your doorbell's IP address and root credentials
-- Your replacement audio file (any format ffmpeg can read)
+- ffmpeg & lftp installed on your computer
+- Your doorbell's IP address and root credentials (should be root:adcvideo)
+- Your replacement audio file (theoretically any format ffmpeg can read)
 
 ## Step 1: Convert Your Audio File
 
-The device requires a very specific WAV format. Use this exact ffmpeg command:
+The device requires a very specific WAV format. Use this exact ffmpeg command (besides the input filename):
 
 ```bash
 ffmpeg -i yourcustom.mp3 -ar 8000 -ac 1 -acodec pcm_s16le -bitexact -fflags +bitexact -map_metadata -1 bell.wav
 ```
 
-## Step 2: Connect via FTP
+## Step 2: Connect via FTP (Use YOUR DOORBELL'S ip addr)
 
 ```bash
-lftp root@192.168.1.36
+lftp -u root,adcvideo 192.168.1.36
 ```
 
 Use your root password when prompted.
